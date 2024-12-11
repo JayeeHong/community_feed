@@ -1,4 +1,4 @@
-package org.fastcampus.user.user.repository;
+package org.fastcampus.user.repository;
 
 import java.util.HashSet;
 import java.util.Set;

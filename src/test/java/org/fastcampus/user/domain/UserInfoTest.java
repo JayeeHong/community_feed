@@ -1,4 +1,4 @@
-package org.fastcampus.user.user.domain;
+package org.fastcampus.user.domain;
 
 import static org.junit.jupiter.api.Assertions.assertDoesNotThrow;
 import static org.junit.jupiter.api.Assertions.assertThrows;

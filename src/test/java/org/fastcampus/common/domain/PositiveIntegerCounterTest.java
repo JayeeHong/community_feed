@@ -1,4 +1,4 @@
-package org.fastcampus.user.common.domain;
+package org.fastcampus.common.domain;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 

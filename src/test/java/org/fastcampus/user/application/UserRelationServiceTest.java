@@ -1,17 +1,15 @@
-package org.fastcampus.user.user.application;
+package org.fastcampus.user.application;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-import org.fastcampus.user.application.UserRelationService;
-import org.fastcampus.user.application.UserService;
 import org.fastcampus.user.application.dto.CreateUserRequestDto;
 import org.fastcampus.user.application.dto.FollowUserRequestDto;
 import org.fastcampus.user.application.interfaces.UserRelationRepository;
 import org.fastcampus.user.application.interfaces.UserRepository;
 import org.fastcampus.user.domain.User;
-import org.fastcampus.user.user.repository.FakeUserRelationRepository;
-import org.fastcampus.user.user.repository.FakeUserRepository;
+import org.fastcampus.user.repository.FakeUserRelationRepository;
+import org.fastcampus.user.repository.FakeUserRepository;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
