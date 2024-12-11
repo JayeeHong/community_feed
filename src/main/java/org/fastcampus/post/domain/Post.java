@@ -1,7 +1,7 @@
-package org.fastcampus.post.domain.content;
+package org.fastcampus.post.domain;
 
 import org.fastcampus.common.domain.PositiveIntegerCounter;
-import org.fastcampus.post.domain.PostContent;
+import org.fastcampus.post.domain.content.PostContent;
 import org.fastcampus.user.domain.User;
 
 public class Post {

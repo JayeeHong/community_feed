@@ -1,13 +1,11 @@
-package org.fastcampus.post.domain;
-
-import org.fastcampus.post.domain.content.Content;
+package org.fastcampus.post.domain.content;
 
 public class PostContent extends Content {
 
     private static final int MIN_POST_LENGTH = 5;
     private static final int MAX_POST_LENGTH = 500;
 
-    private PostContent(String content) {
+    public PostContent(String content) {
         super(content);
     }
 
